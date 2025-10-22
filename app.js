@@ -7,3 +7,9 @@ function nicolle(){
 }
 
 module.exports = { greet, nicolle };
+
+function concatenazioneCognomi(nome,cognome){
+    return nome + cognome
+}
+
+concatenazioneCognomi("Massimo","Pizzicannella")
